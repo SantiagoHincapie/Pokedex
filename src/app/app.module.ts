@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PokedexModule } from './pokedex/pokedex.module';
 import { SharedModule } from './shared/shared.module';
 import { SideBarComponent } from './shared/components/side-bar/side-bar.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -17,7 +18,8 @@ import { SideBarComponent } from './shared/components/side-bar/side-bar.componen
     BrowserModule,
     AppRoutingModule,
     PokedexModule,
-    SharedModule
+    SharedModule,
+    HttpClientModule
   ],
   bootstrap: [AppComponent]
 })
